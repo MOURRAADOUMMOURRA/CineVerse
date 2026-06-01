@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="100dp"
+    android:height="150dp"
+    android:viewportWidth="100"
+    android:viewportHeight="150">
+
+    <!-- Fond sombre -->
+    <path
+        android:fillColor="#1E1E1E"
+        android:pathData="M0,0 L100,0 L100,150 L0,150 Z"/>
+
+    <!-- Icône pellicule centrée -->
+    <path
+        android:fillColor="#3A3A3A"
+        android:pathData="M35,55 L65,55 L65,95 L35,95 Z"/>
+    <path
+        android:fillColor="#2A2A2A"
+        android:pathData="M38,58 L62,58 L62,92 L38,92 Z"/>
+
+    <!-- Petits carrés pellicule gauche -->
+    <path
+        android:fillColor="#3A3A3A"
+        android:pathData="M28,60 L33,60 L33,66 L28,66 Z"/>
+    <path
+        android:fillColor="#3A3A3A"
+        android:pathData="M28,70 L33,70 L33,76 L28,76 Z"/>
+    <path
+        android:fillColor="#3A3A3A"
+        android:pathData="M28,80 L33,80 L33,86 L28,86 Z"/>
+
+    <!-- Petits carrés pellicule droite -->
+    <path
+        android:fillColor="#3A3A3A"
+        android:pathData="M67,60 L72,60 L72,66 L67,66 Z"/>
+    <path
+        android:fillColor="#3A3A3A"
+        android:pathData="M67,70 L72,70 L72,76 L67,76 Z"/>
+    <path
+        android:fillColor="#3A3A3A"
+        android:pathData="M67,80 L72,80 L72,86 L67,86 Z"/>
+
+    <!-- Triangle play au centre -->
+    <path
+        android:fillColor="#E50914"
+        android:pathData="M46,68 L46,82 L60,75 Z"/>
+
+</vector>

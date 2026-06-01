@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_search"
+        android:title="Rechercher"
+        android:icon="@android:drawable/ic_menu_search"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/action_settings"
+        android:title="Paramètres"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_filter"
+        android:title="Filtrer"
+        app:showAsAction="never">
+        <menu>
+            <item android:id="@+id/filter_all" android:title="Tous"/>
+            <item android:id="@+id/filter_a_voir" android:title="À voir"/>
+            <item android:id="@+id/filter_en_cours" android:title="En cours"/>
+            <item android:id="@+id/filter_vu" android:title="Vu"/>
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- ═══════════════════════════════════════════
+         THÈME PRINCIPAL — CineVerse
+    ════════════════════════════════════════════ -->
+    <style name="Theme.CineVerse"
+        parent="Theme.MaterialComponents.DayNight.NoActionBar">
+
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorPrimaryVariant">@color/primary_variant</item>
+        <item name="colorAccent">@color/accent</item>
+        <item name="colorSurface">@color/surface</item>
+        <item name="colorError">@color/error</item>
+        <item name="colorOnSurface">@color/text_primary</item>
+        <item name="colorOnBackground">@color/text_primary</item>
+        <item name="android:colorBackground">@color/background</item>
+        <item name="android:windowBackground">@color/background</item>
+        <item name="android:textColorPrimary">@color/text_primary</item>
+        <item name="android:textColorSecondary">@color/text_secondary</item>
+        <item name="android:textColorHint">@color/text_hint</item>
+        <item name="toolbarStyle">@style/CineVerse.Toolbar</item>
+        <item name="materialCardViewStyle">@style/CineVerse.Card</item>
+        <item name="ratingBarStyle">@style/CineVerse.RatingBar</item>
+        <item name="textInputStyle">@style/CineVerse.TextInput</item>
+        <item name="chipStyle">@style/CineVerse.Chip</item>
+        <item name="floatingActionButtonStyle">@style/CineVerse.FAB</item>
+        <item name="android:windowActivityTransitions">true</item>
+        <item name="android:windowContentTransitions">true</item>
+        <item name="android:windowAllowEnterTransitionOverlap">true</item>
+        <item name="android:windowAllowReturnTransitionOverlap">true</item>
+        <item name="android:statusBarColor">@color/background</item>
+        <item name="android:navigationBarColor">@color/background</item>
+        <item name="android:windowLightStatusBar">false</item>
+
+    </style>
+
+    <!-- ═══════════════════════════════════════════
+         TOOLBAR
+    ════════════════════════════════════════════ -->
+    <style name="CineVerse.Toolbar"
+        parent="Widget.MaterialComponents.Toolbar">
+        <item name="android:background">@color/surface</item>
+        <item name="titleTextColor">@color/text_primary</item>
+        <item name="subtitleTextColor">@color/text_secondary</item>
+        <item name="titleTextAppearance">@style/CineVerse.Toolbar.Title</item>
+    </style>
+
+    <style name="CineVerse.Toolbar.Title"
+        parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:letterSpacing">0.05</item>
+        <item name="android:textColor">@color/text_primary</item>
+    </style>
+
+    <!-- ═══════════════════════════════════════════
+         CARDS
+    ════════════════════════════════════════════ -->
+    <style name="CineVerse.Card"
+        parent="Widget.MaterialComponents.CardView">
+        <item name="cardBackgroundColor">@color/card_background</item>
+        <item name="cardCornerRadius">12dp</item>
+        <item name="cardElevation">4dp</item>
+        <item name="cardPreventCornerOverlap">true</item>
+        <item name="android:layout_margin">8dp</item>
+    </style>
+
+    <style name="CineVerse.Card.Elevated"
+        parent="CineVerse.Card">
+        <item name="cardBackgroundColor">@color/card_elevated</item>
+        <item name="cardElevation">8dp</item>
+    </style>
+
+    <!-- ═══════════════════════════════════════════
+         BOUTONS
+    ════════════════════════════════════════════ -->
+    <style name="CineVerse.Button"
+        parent="Widget.MaterialComponents.Button">
+        <item name="backgroundTint">@color/primary</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:letterSpacing">0.05</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="cornerRadius">8dp</item>
+        <item name="android:paddingTop">14dp</item>
+        <item name="android:paddingBottom">14dp</item>
+        <item name="android:minHeight">56dp</item>
+        <item name="rippleColor">@color/ripple_white</item>
+    </style>
+
+    <style name="CineVerse.Button.Outline"
+        parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="strokeColor">@color/primary</item>
+        <item name="strokeWidth">1.5dp</item>
+        <item name="android:textColor">@color/primary</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="cornerRadius">8dp</item>
+        <item name="android:minHeight">56dp</item>
+        <item name="rippleColor">@color/ripple</item>
+    </style>
+
+    <style name="CineVerse.Button.Text"
+        parent="Widget.MaterialComponents.Button.TextButton">
+        <item name="android:textColor">@color/primary</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="rippleColor">@color/ripple</item>
+    </style>
+
+    <!-- ═══════════════════════════════════════════
+         RATING BAR
+    ════════════════════════════════════════════ -->
+    <style name="CineVerse.RatingBar"
+        parent="Widget.AppCompat.RatingBar">
+        <item name="colorControlNormal">@color/gold_empty</item>
+        <item name="colorControlActivated">@color/gold</item>
+        <item name="android:progressTint">@color/gold</item>
+        <item name="android:secondaryProgressTint">@color/gold_empty</item>
+    </style>
+
+    <style name="CineVerse.RatingBar.Small"
+        parent="Widget.AppCompat.RatingBar.Small">
+        <item name="colorControlNormal">@color/gold_empty</item>
+        <item name="colorControlActivated">@color/gold</item>
+    </style>
+
+    <!-- ═══════════════════════════════════════════
+         TEXT INPUT
+    ════════════════════════════════════════════ -->
+    <style name="CineVerse.TextInput"
+        parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">@color/primary</item>
+        <item name="boxBackgroundColor">@color/surface</item>
+        <item name="hintTextColor">@color/text_hint</item>
+        <item name="android:textColorHint">@color/text_hint</item>
+        <item name="boxCornerRadiusTopStart">8dp</item>
+        <item name="boxCornerRadiusTopEnd">8dp</item>
+        <item name="boxCornerRadiusBottomStart">8dp</item>
+        <item name="boxCornerRadiusBottomEnd">8dp</item>
+    </style>
+
+    <!-- ═══════════════════════════════════════════
+         CHIPS
+    ════════════════════════════════════════════ -->
+    <style name="CineVerse.Chip"
+        parent="Widget.MaterialComponents.Chip.Choice">
+        <item name="chipBackgroundColor">@color/card_elevated</item>
+        <item name="android:textColor">@color/text_secondary</item>
+        <item name="chipStrokeColor">@color/divider_light</item>
+        <item name="chipStrokeWidth">1dp</item>
+        <item name="chipCornerRadius">20dp</item>
+        <item name="checkedIconTint">@color/primary</item>
+        <item name="chipIconTint">@color/text_secondary</item>
+    </style>
+
+    <style name="CineVerse.Chip.Status"
+        parent="Widget.MaterialComponents.Chip.Entry">
+        <item name="chipBackgroundColor">@color/card_elevated</item>
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="chipCornerRadius">6dp</item>
+    </style>
+
+    <!-- ═══════════════════════════════════════════
+         FAB
+    ════════════════════════════════════════════ -->
+    <style name="CineVerse.FAB"
+        parent="Widget.MaterialComponents.FloatingActionButton">
+        <item name="backgroundTint">@color/primary</item>
+        <item name="tint">@color/white</item>
+        <item name="elevation">8dp</item>
+        <item name="hoveredFocusedTranslationZ">4dp</item>
+        <item name="pressedTranslationZ">6dp</item>
+        <item name="rippleColor">@color/ripple_white</item>
+    </style>
+
+    <!-- ═══════════════════════════════════════════
+         SPLASH
+    ════════════════════════════════════════════ -->
+    <style name="Theme.CineVerse.Splash"
+        parent="Theme.CineVerse">
+        <item name="android:windowBackground">@color/background</item>
+        <item name="android:statusBarColor">@color/background</item>
+        <item name="android:navigationBarColor">@color/background</item>
+        <item name="android:windowFullscreen">false</item>
+    </style>
+
+    <!-- ═══════════════════════════════════════════
+         TEXTES — ✅ Base déclarée en premier
+    ════════════════════════════════════════════ -->
+    <style name="CineVerse.Text"
+        parent="android:TextAppearance">
+    </style>
+
+    <style name="CineVerse.Text.Title"
+        parent="CineVerse.Text">
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="CineVerse.Text.Subtitle"
+        parent="CineVerse.Text">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/text_secondary</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="CineVerse.Text.Body"
+        parent="CineVerse.Text">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/text_secondary</item>
+        <item name="android:lineSpacingMultiplier">1.4</item>
+    </style>
+
+    <style name="CineVerse.Text.Caption"
+        parent="CineVerse.Text">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/text_hint</item>
+        <item name="android:letterSpacing">0.04</item>
+    </style>
+
+    <style name="CineVerse.Text.Score"
+        parent="CineVerse.Text">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/gold</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+</resources>

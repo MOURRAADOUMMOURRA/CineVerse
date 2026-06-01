@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App -->
+    <string name="app_name">CineVerse</string>
+    <string name="tagline">Ton univers cinéma</string>
+
+    <!-- Navigation -->
+    <string name="ma_collection">Ma Collection</string>
+    <string name="recherche">Recherche</string>
+    <string name="parametres">Paramètres</string>
+    <string name="detail">Détail</string>
+
+    <!-- Search -->
+    <string name="rechercher_film">Rechercher un film...</string>
+    <string name="films_populaires">Films populaires</string>
+    <string name="aucun_resultat">Aucun résultat</string>
+    <string name="recherche_en_cours">Recherche...</string>
+    <string name="erreur_reseau">Erreur réseau</string>
+    <string name="pas_de_connexion">Pas de connexion internet</string>
+
+    <!-- Collection -->
+    <string name="collection_vide">Ta collection est vide</string>
+    <string name="collection_vide_desc">Recherche un film et ajoute-le !</string>
+    <string name="ajouter_collection">Ajouter à ma collection</string>
+    <string name="deja_dans_collection">Déjà dans la collection</string>
+    <string name="ajoute">Ajouté ✓</string>
+    <string name="film_ajoute">ajouté à ta collection !</string>
+    <string name="voir">Voir</string>
+    <string name="film_supprime">Film supprimé</string>
+    <string name="collection_videe">Collection vidée</string>
+
+    <!-- Statuts -->
+    <string name="a_voir">À voir</string>
+    <string name="en_cours">En cours</string>
+    <string name="vu">Vu</string>
+
+    <!-- Detail -->
+    <string name="statut">Statut</string>
+    <string name="ma_note">Ma note</string>
+    <string name="mon_avis">Mon avis</string>
+    <string name="avis_hint">Écris ton avis ici...</string>
+    <string name="date_visionnage">Date de visionnage</string>
+    <string name="choisir_date">Choisir une date</string>
+    <string name="ma_section">MA SECTION</string>
+    <string name="synopsis_indispo">Synopsis non disponible.</string>
+    <string name="date_inconnue">Date inconnue</string>
+
+    <!-- Settings -->
+    <string name="profil">PROFIL</string>
+    <string name="preferences">PRÉFÉRENCES</string>
+    <string name="donnees">DONNÉES</string>
+    <string name="nom_utilisateur">Nom d\'utilisateur</string>
+    <string name="notifications">Notifications</string>
+    <string name="notifications_desc">Nouveautés et rappels</string>
+    <string name="sauvegarde_auto">Sauvegarde auto</string>
+    <string name="sauvegarde_auto_desc">Sauvegarder en quittant</string>
+    <string name="sauvegarder">Sauvegarder</string>
+    <string name="parametres_sauvegardes">Paramètres sauvegardés !</string>
+    <string name="vider_collection">Vider la collection</string>
+    <string name="vider_confirmation">Es-tu sûr de vouloir supprimer tous tes films ?</string>
+
+    <!-- Dialogs -->
+    <string name="modifier_statut">Modifier le statut</string>
+    <string name="modifier_note">Modifier la note</string>
+    <string name="supprimer">Supprimer</string>
+    <string name="supprimer_confirmation">Supprimer ce film de la collection ?</string>
+    <string name="annuler">Annuler</string>
+    <string name="oui">Oui</string>
+    <string name="statut_mis_a_jour">Statut mis à jour</string>
+    <string name="note_mise_a_jour">Note mise à jour</string>
+
+    <!-- Errors -->
+    <string name="erreur_username">Entre ton nom d\'utilisateur</string>
+    <string name="erreur_parse">Erreur de données</string>
+</resources>
